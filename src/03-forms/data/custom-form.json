@@ -1,0 +1,99 @@
+[
+    {
+        "type": "input",
+        "name": "firstName",
+        "placeholder": "eduardo",
+        "label": "First Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required",
+                "message": "First Name is required"
+            },
+            {
+                "type": "minLength",
+                "message": "First Name must be at least 3 characters",
+                "value": 3
+            },
+            {
+                "type": "maxLength",
+                "message": "First Name must be 15 characters or less",
+                "value": 15
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "name": "lastName",
+        "placeholder": "campili",
+        "label": "Last Name",
+        "value": "",
+        "validations": [
+            {
+                "type": "required",
+                "message": "First Name is required"
+            },
+            {
+                "type": "minLength",
+                "message": "First Name must be at least 3 characters",
+                "value": 3
+            },
+            {
+                "type": "maxLength",
+                "message": "First Name must be 15 characters or less",
+                "value": 15
+            }
+        ]
+    },
+    {
+        "type": "email",
+        "name": "email",
+        "placeholder": "edu@gmail.com",
+        "label": "Email",
+        "value": "",
+        "validations": [
+            {
+                "type": "required",
+                "message": "First Name is required"
+            },
+            {
+                "type": "email",
+                "message": "Email is not valid"
+            }
+        ]
+    },
+    {
+        "type": "select",
+        "name": "favoriteGame",
+        "label": "Favorite Game",
+        "value": "",
+        "options": [
+            {
+                "id": 1,
+                "name": "League of Legends"
+            },
+            {
+                "id": 2,
+                "name": "Overwatch"
+            },
+            {
+                "id": 3,
+                "name": "Dota 2"
+            },
+            {
+                "id": 4,
+                "name": "Counter Strike"
+            },
+            {
+                "id": 5,
+                "name": "Hearthstone"
+            }
+        ],
+        "validations": [
+            {
+                "type": "required",
+                "message": "First Name is required"
+            }
+        ]
+    }
+]
